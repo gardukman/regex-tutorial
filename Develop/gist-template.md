@@ -4,7 +4,7 @@ In this tutorial, I'll explain what RegEx (Regular Expression) is and how it is 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A RegEx, or regular expression is basically a string of characters that help define a search parameter. Each character in the string is set to search for specific things within a larger string of characters. RegEx uses algorithms to find the patterns set in the search. The examples below are different expressions used in building regular expression search algorithms.
 
 ## Table of Contents
 
