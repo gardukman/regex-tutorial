@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# RegEx Tutorial by: Garrett Manwaring
 
-Introductory paragraph (replace this with your text)
+In this tutorial, I'll explain what RegEx (Regular Expression) is and how it is used. I'll also provide a few examples of different RegEx code snippets and explain how and what they do. I'm no expert in RegEx, but I hope that my limited knowledge and explanations will help broaden your understanding on this coding language.
 
 ## Summary
 
