@@ -40,6 +40,8 @@ Character classes help match characters only on their classification when search
 
 ### Flags
 
+Regular expression patterns are often used with modifiers (also called flags) that redefine regex behavior.
+
 ### Grouping and Capturing
 
 Grouping lets you treat another expression as a single unit. For example, in \('expression'\), 'expression' will match as a group.
@@ -48,7 +50,11 @@ With capturing, a part of the pattern can be enclosed in parenthesis which allow
 
 ### Bracket Expressions
 
+The main purpose of bracket expressions is that they adapt to the user’s or application’s locale. A locale is a collection of rules and settings that describe language and cultural conventions, like sort order, date format, etc. The bracket expression standard defines these locales.
+
 ### Greedy and Lazy Match
+
+Greedy matching will return as many instances of the search parameters as it can find. "*" and "+" are examples of greedy matching. Lazy matching (or Non-Greedy) will do the exact opposite. Adding a "?" to the parameters will return as few match results as possible.
 
 ### Boundaries
 
@@ -60,4 +66,4 @@ With capturing, a part of the pattern can be enclosed in parenthesis which allow
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was made by Garrett Manwaring. I started web development in July of 2020 and at the time of making this tutorial hopes to be able to find work in the coding field. My work can be found here: https://github.com/gardukman Thank you for taking the time to read this tutorial. I hope it was helpful.
