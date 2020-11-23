@@ -30,6 +30,8 @@ Anchors are unique when it comes to RegEx because they don't search for characte
 
 ### Quantifiers
 
+Quantifiers allow you to set a specific quantity to the pattern that is being matched. For instance, the user might need to match a specific number of characters, or find every string between a minimum and maximum parameter set in the quantifier. Examples of quantifiers include "*" which match zero or more of the preceding character, "'char'\{'num'\}" would find the exact "num" of the "char" (m\{3} would match mmm), and "'char'\{'num1','num2'\}" would match no fewer than 'num1' but no more than 'num2' of 'char'.
+
 ### OR Operator
 
 ### Character Classes
