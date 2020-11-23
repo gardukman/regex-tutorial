@@ -42,6 +42,10 @@ Character classes help match characters only on their classification when search
 
 ### Grouping and Capturing
 
+Grouping lets you treat another expression as a single unit. For example, in \('expression'\), 'expression' will match as a group.
+
+With capturing, a part of the pattern can be enclosed in parenthesis which allows to get part of the match as a separate item in the result array, and if a quantifier is placed after the parenthesis, it applies to the parenthesis as a whole.
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
