@@ -62,7 +62,12 @@ Greedy matching will return as many instances of the search parameters as it can
 
 ### Back-references
 
+Back-references allow the user to repeat a capturing group. It's used inside a regex by inlining its group number preceded by a single backslash.
+
 ### Look-ahead and Look-behind
+
+Look-ahead and look-behind matches fall under the "look-around" patterns. Look-around lets you match a group before (look-behind) or after (look-ahead) your main pattern without including it in the result.
+Negative look-arounds specify a group that can NOT match before or after the pattern.
 
 ## Author
 
