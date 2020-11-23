@@ -34,6 +34,8 @@ Quantifiers allow you to set a specific quantity to the pattern that is being ma
 
 ### OR Operator
 
+You can use the | operator (logical OR) to match characters or expression of either the left or right of the | operator. For example the (t|T) will match either t or T from the input string.
+
 ### Character Classes
 
 Character classes help match characters only on their classification when searching for text. The two main classes are "word" characters, which are letters and numbers, and "non-word" characters, like spaces and punctuation marks. Some examples include "\w" which matches word characters, "\W" which matches non-word characters, "\s" which finds whitespace characters, "\S" which finds non-whitespace characters, and "." which matches any single character except the newline character. 
