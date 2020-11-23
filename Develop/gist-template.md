@@ -26,7 +26,7 @@ The components used for RegEx help determine and define the users search and wha
 
 ### Anchors
 
-Anchors are unique when it comes to RegEx because they don't search for characters in a string, but rather they match positions within a string. For instance, "^" matches the beginning of the string, "$" matches the end of the string, "\b" matches a word boundary between a word character and a non-word character or position, and "\B" matches any position that is not a word boundary.
+Anchors are unique when it comes to RegEx because they don't search for characters in a string, but rather they match positions within a string. For instance, "^" matches the beginning of the string and "$" matches the end of the string.
 
 ### Quantifiers
 
@@ -51,6 +51,8 @@ With capturing, a part of the pattern can be enclosed in parenthesis which allow
 ### Greedy and Lazy Match
 
 ### Boundaries
+
+ Boundaries work by matching strings and their positioning within words and phrases. For instance, "\b" matches a word boundary between a word character and a non-word character or position, and "\B" matches any position that is not a word boundary.
 
 ### Back-references
 
